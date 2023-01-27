@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name             = 'OTMLModels'
   s.module_name      = 'OTMLModels'
 
-  s.version          = '1.5'
+  s.version          = '1.6'
   s.summary          = 'OTML Models'
   s.description      = <<-DESC
                   OTML Models
