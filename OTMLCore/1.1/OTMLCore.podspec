@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.name             = 'OTMLCore'
     s.module_name      = 'OTMLCore'
   
-    s.version          = '0.0.1'
+    s.version          = '1.1'
     s.summary          = 'Opentech core layer framework'
     s.description      = <<-DESC
       Opentech Core Framework contains utility classes for the other opentech products

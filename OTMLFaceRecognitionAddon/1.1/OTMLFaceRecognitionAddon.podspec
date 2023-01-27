@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'OTMLFaceRecognitionAddon'
-  s.version          = '0.0.1'
+  s.version          = '1.1'
   s.summary          = 'OTMLFaceRecognitionAddon'
   s.description      = <<-DESC
       OTMLFaceRecognitionAddon includes MLKit Face Detection reader component and dependencies

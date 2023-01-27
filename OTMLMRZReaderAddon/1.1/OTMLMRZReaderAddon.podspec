@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OTMLMRZReaderAddon'
-  s.version          = '0.0.1'
+  s.version          = '1.1'
   s.summary          = 'OTMLMRZReaderAddon'
   s.description      = <<-DESC
   OTMLMRZReaderAddon includes MRZ reader component and dependencies

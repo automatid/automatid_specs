@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name             = 'AutomatID'
   s.module_name      = 'AutomatID'
 
-  s.version          = '0.0.1'
+  s.version          = '1.1'
   s.summary          = 'Openpay plugin SDK'
   s.description      = <<-DESC
   Openpay plugin SDK
