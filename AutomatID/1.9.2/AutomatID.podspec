@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
-  s.name             = 'AutomatIDAssets'
-  s.module_name      = 'AutomatIDAssets'
+  s.name             = 'AutomatID'
+  s.module_name      = 'AutomatID'
 
-  s.version          = '1.8.104'
+  s.version          = '1.9.2'
   s.summary          = 'Openpay plugin SDK'
   s.description      = <<-DESC
   Openpay plugin SDK
                        DESC
-  s.static_framework = true
+
   s.homepage         = 'https://opentech.com'
   s.license          = { :type => 'FULL', :file => 'LICENSE' }
   s.author           = { 'opentech ios team' => 'ios@opentech.com' }
@@ -17,6 +17,16 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.pod_target_xcconfig = { "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES"}
 
-  s.ios.vendored_frameworks = 'AutomatIDAssets.xcframework'
+  s.ios.vendored_frameworks = 'AutomatID.xcframework'
+
+  s.resources = 'Assets/*'
+
+  s.dependency 'OTML'
+  s.dependency 'OTMLModels'
+  s.dependency 'OTMLCore'
+  s.dependency 'OTMLMRZReaderAddon'
+  s.dependency 'OTMLNfcDocumentReaderModule'
+  s.dependency 'OTMLFaceRecognitionAddon'
+  s.dependency 'NFCPassportReader'
 
 end

@@ -1,22 +1,24 @@
 Pod::Spec.new do |s|
 
-  s.name             = 'AutomatIDAssets'
-  s.module_name      = 'AutomatIDAssets'
+  s.name             = 'OTMLModels'
+  s.module_name      = 'OTMLModels'
 
-  s.version          = '1.8.101'
-  s.summary          = 'Openpay plugin SDK'
+  s.version          = '1.9.2'
+  s.summary          = 'OTML Models'
   s.description      = <<-DESC
-  Openpay plugin SDK
+                  OTML Models
                        DESC
 
   s.homepage         = 'https://opentech.com'
   s.license          = { :type => 'FULL', :file => 'LICENSE' }
   s.author           = { 'opentech ios team' => 'ios@opentech.com' }
+  
   s.source           = { :git => 'git@github.com:automatid/automatid_ios_artifacts.git', :tag => s.version.to_s }
+  
+  s.ios.vendored_frameworks = 'OTMLModels.xcframework'
 
-  s.ios.deployment_target = '11.0'
-  s.pod_target_xcconfig = { "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES"}
+  s.ios.deployment_target = '10.0'
+  s.dependency 'TBXML'
 
-  s.ios.vendored_frameworks = 'AutomatIDAssets.xcframework'
-
+  
 end
