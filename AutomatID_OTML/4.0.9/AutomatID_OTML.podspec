@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name             = 'AutomatID_OTML'
   s.module_name      = 'AutomatID_OTML'
 
-  s.version          = '4.0.8'
+  s.version          = '4.0.9'
   s.summary          = 'OTML iOS Framework'
   s.description      = <<-DESC
                     OTML iOS Framework
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '15.0'
 
-  # c++ serve per CardIO
-  s.libraries = 'c++'
   s.frameworks = 'MobileCoreServices', 'WatchConnectivity', 'UIKit', 'Foundation', 'Security', 'CoreTelephony', 'StoreKit', 'LocalAuthentication', 'Social', 'CoreVideo', 'SystemConfiguration', 'Accelerate', 'WebKit', 'CoreImage', 'MessageUI', 'AVFoundation', 'CoreMedia', 'QuartzCore'
 
   s.ios.vendored_frameworks = 'AutomatID_OTML.xcframework'
 
 
   s.dependency 'lottie-ios', '~>4'
-  s.dependency 'AutomatID_OTMLModels', '4.0.8' 
-  s.dependency 'AutomatID_OTTBXML', '4.0.8'
+  s.dependency 'AutomatID_OTMLModels', '4.0.9' 
+  s.dependency 'AutomatID_OTTBXML', '4.0.9'
   
-  s.dependency 'AutomatID_OTMLCore', '4.0.8' 
+  s.dependency 'AutomatID_OTMLCore', '4.0.9' 
   
 
 end
