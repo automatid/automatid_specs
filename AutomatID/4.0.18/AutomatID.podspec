@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.module_name      = 'AutomatID'
 
   
-  s.version          = '4.0.17'
+  s.version          = '4.0.18'
   s.summary          = 'Openpay plugin SDK'
   s.description      = <<-DESC
   Openpay plugin SDK
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.resources = 'Assets/*'
 
-  s.dependency 'OTHFOTML' , '4.0.17' 
-  s.dependency 'OTHFOTMLModels', '4.0.17' 
-  s.dependency 'OTHFOTMLCore', '4.0.17' 
-  s.dependency 'OTHFOTMLMRZReaderAddon', '4.0.17' 
-  s.dependency 'OTHFOTMLNfcDocumentReaderModule', '4.0.17' 
-  s.dependency 'OTHFOTMLFaceRecognitionAddon', '4.0.17' 
+  s.dependency 'OTHFOTML' , '4.0.18' 
+  s.dependency 'OTHFOTMLModels', '4.0.18' 
+  s.dependency 'OTHFOTMLCore', '4.0.18' 
+  s.dependency 'OTHFOTMLMRZReaderAddon', '4.0.18' 
+  s.dependency 'OTHFOTMLNfcDocumentReaderModule', '4.0.18' 
+  s.dependency 'OTHFOTMLFaceRecognitionAddon', '4.0.18' 
 
 end
